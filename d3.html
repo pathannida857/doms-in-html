@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><script>
+        function display(){
+            let obje=document.querySelectorAll("p");
+            // obje.innerHTML="gaft noon"
+            console.log(obje);
+            // document.getElementById().innerHTML=obje;
+            for (var i=0; i<obje.length; i++){
+                obje[i].style.color="red";
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <buttton onclick="display()"> click here</buttton>
+    <p>hello my miracle</p>
+    <p>hello my miracle2</p>
+    <p>hello my miracle3</p>
+    <p>hello my miracle4</p>
+</body>
+</html>
